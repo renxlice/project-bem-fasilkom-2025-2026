@@ -84,8 +84,8 @@ export default function PortofiloList() {
               <div className="card">
                 <img src={Dumyfoto} className="card-img-top" alt="..." />
                 <div className="card-body">
-                  <h5 className="card-title">Lorem Ipsum</h5>
-                  <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                  <h5 className="card-title">PSDM Ristek</h5>
+                  <p className="card-text">Nicholas Albhe</p>
                   <a href="#" className="btn">Terus membaca...</a>
                 </div>
               </div>
