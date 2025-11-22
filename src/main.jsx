@@ -7,6 +7,7 @@ import About from './Pages/About.jsx';
 import ScannerPage from './Pages/ScannerPage.jsx';
 import LoginPage from './Pages/LoginPage.jsx';
 import BarcodePage from './Pages/BarcodePage.jsx';
+import Aspirasi from './Pages/Aspirasi.jsx';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Route path="/scanner" element={<ScannerPage />} />
         <Route path="/barcode" element={<BarcodePage />} />
         <Route path="/login" element={<LoginPage />} />
+        <Route path="/aspirasi" element={<Aspirasi />} />
         <Route path="*" element={<div>404 Not Found</div>} />
       </Routes>
     </BrowserRouter>

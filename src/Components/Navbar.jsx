@@ -25,6 +25,9 @@ export default function Navbar(){
                         <a className="nav-link" href="/#portofolio">Portofolio</a>
                     </li>
                     <li className="nav-item">
+                        <a className="nav-link" href="/aspirasi">Aspirasi</a>
+                    </li>
+                    <li className="nav-item">
                         <a className="nav-link" href="/#contac">Contact Us</a>
                     </li>
                 </ul>
