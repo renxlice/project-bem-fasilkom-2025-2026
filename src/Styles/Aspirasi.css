@@ -1,0 +1,68 @@
+.aspirasi-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px;
+  background-color: #f9f9f9;
+}
+
+.aspirasi-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  width: 50%;
+}
+
+.aspirasi-card {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.aspirasi-card h3 {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.aspirasi-card span {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-size: 1.5em;
+  color: #ccc;
+}
+
+.card-1 { background-color: #fffaf0; }
+.card-2 { background-color: #f0e6e6; }
+.card-3 { background-color: #f0e6e6; }
+.card-4 { background-color: #fffaf0; }
+.card-5 { background-color: #fffaf0; }
+
+.aspirasi-form {
+  width: 40%;
+  text-align: left;
+}
+
+.aspirasi-form h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.aspirasi-form p {
+  font-size: 1em;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.btn-lapor {
+  background-color: #800000;
+  color: #fff;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+}
