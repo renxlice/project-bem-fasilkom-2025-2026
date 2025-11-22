@@ -1,20 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { useEffect, useState } from 'react';
 import HomePages from './Pages/Home.jsx';
 import About from './Pages/About.jsx';
 import ScannerPage from './Pages/ScannerPage.jsx';
 import LoginPage from './Pages/LoginPage.jsx';
 import BarcodePage from './Pages/BarcodePage.jsx';
-<<<<<<< HEAD
-=======
 import Aspirasi from './Pages/Aspirasi.jsx';
->>>>>>> 4d5d2e19d219ffd5731481b9443f1aee1bf2ce94
-
 
 function App() {
-
   return (
     <BrowserRouter>
       <Routes>
@@ -23,16 +17,12 @@ function App() {
         <Route path="/scanner" element={<ScannerPage />} />
         <Route path="/barcode" element={<BarcodePage />} />
         <Route path="/login" element={<LoginPage />} />
-<<<<<<< HEAD
-=======
         <Route path="/aspirasi" element={<Aspirasi />} />
->>>>>>> 4d5d2e19d219ffd5731481b9443f1aee1bf2ce94
         <Route path="*" element={<div>404 Not Found</div>} />
       </Routes>
     </BrowserRouter>
   );
 }
-
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
