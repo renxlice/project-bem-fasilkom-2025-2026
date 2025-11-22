@@ -3,7 +3,8 @@ import LogoNavbar from '../assets/logo_navbar.png'
 export default function Navbar(){
     return (
     <nav className="navbar navbar-expand-lg custom-navbar">
-        <div className="container">
+        <div className="container" style={{ width: '980px', height: '98px' }}>
+
             <a className="navbar-brand" href="#">
                 <img srcSet={LogoNavbar} alt="Logo" width="200" height="84"/>
             </a>
